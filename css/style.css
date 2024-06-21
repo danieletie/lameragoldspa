@@ -118,7 +118,7 @@ header{
 	color:#252525;
 }
 
-@media screen and (max-width: 1440px) {
+@media only screen and (max-width: 768px) {
 	.header-text {
 	  position: relative;
 	  top: 0;
@@ -133,7 +133,7 @@ header{
   }
 
 /* @media only screen and (max-width: 768px){
-	.header-text h1{
+	.header-text{
 		font-weight:400;
 		font-size:60px;
 		margin-top: 50px;
@@ -169,16 +169,16 @@ header{
 	z-index:100;
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 800px){
+@media only screen and (min-width: 768px) and (max-width: 800px){
 	.arrow-down{
 		position:absolute;
 		width:100%;
 		left:0;
-		margin-top: 475px;
+		margin-top: 50px;
 		bottom:20px;
 		z-index:100;
 	}
-} */
+}
 
 .arrow-down a{
 	display:inline-block;	
@@ -227,7 +227,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 h1 {
 	font-size: 48px;
-	/* margin-top:0; */
+	margin-top:0;
 	color:#252525;
 }
 
@@ -303,6 +303,11 @@ h6 {
 .welcome-text h1{
 	font-size:48px;
 	text-transform:lowercase;
+}
+@media only screen and (max-width: 768px){
+	#welcome-wrap{
+		margin-top: auto ;
+	}
 }
 .welcome-text h1 span{
 	color:#b08839;
