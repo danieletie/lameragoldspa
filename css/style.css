@@ -95,7 +95,7 @@ header{
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header-text {
     position: relative;
     top: 0;
@@ -116,7 +116,7 @@ header{
 	color:#252525;
 }
 
-/* @media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 	.header-text h1{
 		font-weight:400;
 		font-size:60px;
@@ -124,9 +124,9 @@ header{
 		margin-bottom:25px;
 		color:#252525;
 	}
-} */
+}
 
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	.header-text h1{
 		font-weight:400;
 		font-size:60px;
@@ -134,7 +134,7 @@ header{
 		margin-bottom:25px;
 		color:#252525;
 	}
-} */
+}
 
 .header-text h1 span {
     color: #FFFF;
