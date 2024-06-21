@@ -132,7 +132,7 @@ header{
 	}
 }
 
-@media only screen and (max-width: 1023px)  {
+@media only screen and (max-width: 768px)  {
 	.header-text {
 	  position: relative;
 	  top: 0;
@@ -145,6 +145,8 @@ header{
 	  min-width: 100%;
 	}
 }
+
+
 
 /* @media only screen and (max-width: 768px){
 	.header-text{
