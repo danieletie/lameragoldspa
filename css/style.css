@@ -132,6 +132,20 @@ header{
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+	.header-text {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  -webkit-transform: translate(0);
+		  -ms-transform: translate(0);
+			  transform: translate(0);
+	  max-width: 380px;
+	  margin: 0 auto;
+	  min-width: 100%;
+	}
+}
+
 /* @media only screen and (max-width: 768px){
 	.header-text{
 		font-weight:400;
