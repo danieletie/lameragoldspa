@@ -111,31 +111,9 @@ header{
 .header-text h1{
 	font-weight:400;
 	font-size:60px;
-	margin-top: 200px;
 	margin-bottom:25px;
 	color:#252525;
 }
-
-/* @media only screen and (max-width: 1024px){
-	.header-text h1{
-		font-weight:400;
-		font-size:60px;
-		margin-top: 50px;
-		margin-bottom:25px;
-		color:#252525;
-	}
-} */
-
-@media only screen and (max-width: 768px){
-	.header-text h1{
-		font-weight:400;
-		font-size:60px;
-		margin-top: 50px;
-		margin-bottom:25px;
-		color:#252525;
-	}
-}
-
 .header-text h1 span {
     color: #FFFF;
     font-weight: 700;
@@ -143,8 +121,6 @@ header{
     display: inline-block;
     padding: 2px 11px;
 }
-
-
 .arrow-down{
 	position:absolute;
 	width:100%;
@@ -152,18 +128,6 @@ header{
 	bottom:20px;
 	z-index:100;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 800px){
-	.arrow-down{
-		position:absolute;
-		width:100%;
-		left:0;
-		margin-top: 475px;
-		bottom:20px;
-		z-index:100;
-	}
-}
-
 .arrow-down a{
 	display:inline-block;	
 	font-size:24px;
@@ -174,7 +138,7 @@ header{
     width: 60px;
 	line-height:60px;
     border-radius: 50%;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.5);
     transition:all ease-in-out .5s;
      -webkit-animation-name: bounce;
     -moz-animation-name: bounce;
@@ -189,7 +153,7 @@ header{
 	outline: 0;
     color: #fff;
     border-radius: 50%;
-    background: rgba(176, 136, 57, 0.9);
+    background: rgba(224,88,85,.9);
 }
 
 .page-overlay{
