@@ -9,7 +9,7 @@
 	*/
 	
 	//Get your email address
-	$contact_email = lameragoldspa@gmail.com; //Example : Youremail.com
+	$contact_email = 'lameragoldspa@gmail.com'; //Example : Youremail.com
 	
 	//Enter your email address, email from contact form will send to this addresss. Please enter inside quotes ('myemail@email.com')
 	define('DEST_EMAIL', $contact_email);
@@ -17,7 +17,7 @@
 	//Change email subject to something more meaningful
 	define('SUBJECT_EMAIL', 'Email from contact form');
 	//Success Message
-	define('SUCCESS_MESSAGE', '<h4 class="form_thanks">Thanks! Our Team will get in touch in next 24 hours</h4>');
+	define('SUCCESS_MESSAGE', '<h4 class="form_thanks">Thanks! Our Team will get in touch in the next 24 hours</h4>');
 	
 	//Error message when message can't send
 	define('ERROR_MESSAGE', '<h4 class="form_thanks">Oops! something went wrong, please try to submit later.</h4>');
