@@ -24,7 +24,7 @@ a {
 	transition: all 0.15s linear;
 }
 a:hover, a:focus {
-	color:#fe4444;
+	color:#dfcaa1;
 	text-decoration: none;
 }
 a, a:focus {
@@ -1427,13 +1427,19 @@ label.error{
 	height:60px;
 	bottom:80px;
 	right:12px;
-	background-color:#a58a3a;
+	background-color:#b08839;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   	font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   	z-index:100;
+}
+
+.whatsapp-float:hover, a:focus {
+	color:#b08839;
+	background-color: #FFF ;
+	text-decoration: none;
 }
 
 .whatsapp-my-float{
